@@ -27,21 +27,135 @@ body {
 }
 
 .header {
-    background-color: #003476;
-    height: 30px;
-}
-.content {
-    background-color: #b4d2f7;
-    height: 391px;
+    background-color: lightcoral;
+    font-size: 1.3rem;
+    height: 4.5rem;
+    padding-top: .8rem; 
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
-.googleImage {
-    text-align: center;
+.gmail {
+    order: 4;
+}
+
+.gmail a {
+    padding-right: 1.5rem;
+    text-align: right;
     
 }
+
+.gmail a:link {
+    text-decoration: none;
+  }
+
+.images {
+    order: 3;
+}
+
+
+
+.images a {
+    padding-right: 1.5rem;
+    text-align: right;
+    
+}
+
+.images a:link {
+    text-decoration: none;
+  }
+
+
+
+.GoogleAppsIcon {
+    order: 2;
+    padding-right: 1.5rem;
+    text-align: right;
+
+}
+
+.GoogleAppsIcon img {
+    width: 3.0rem;
+    height: 3.0rem;
+   
+   
+}
+
+.profilePic {
+    order: 1;
+    padding-right: 1.5rem;
+}
+
+.profilePic img {
+    width: 3.0rem;
+    height: 3.0rem;
+    text-align: right;
+    border-radius: 50%;
+
+}
+
+
+.content {
+    
+    height: 391px;
+    display:flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.searchArea{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.space1 .space2 {
+    width: 1rem;
+}
+
+.searchForm {
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-radius: 2.4rem;
+    height: 4.4rem;
+    width: 100%;
+    box-shadow: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: .5rem;
+    
+}
+
+.magnifyGlass img {
+    width: 4rem;
+    padding-left: 1rem;
+    
+}
+
+.searchForm input {
+    min-width: 20.3rem;
+    border: none;
+    height: 3.4rem;
+}
+
+.microphone img {
+    width: 2.9rem;
+    padding-right: 1rem;
+}
+
+
 .googleImage img {
     padding-top: 109px;
+    padding-bottom: 50px;
 }
+
+
 
 
 
@@ -49,6 +163,6 @@ body {
 .footer {
     background-color: #0063d2;
     height: 80px;
-    position:absolute;
+    position: absolute;
     bottom: 0;
 }
