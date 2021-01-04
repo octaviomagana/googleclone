@@ -6,30 +6,31 @@
 
 html {
     font-size: 62.5%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 
 }
 
 body {
     font-family: arial, sans-serif;
+    
 }
 .container {
-    
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    
 }
 
 .header, .content, .footer {
     width: 100%;
-    min-width: 320px;
-    
-
+    min-width: 150px;
 }
 
 .header {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     height: 4.5rem;
-    padding-top: .8rem; 
     display:flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -78,8 +79,6 @@ body {
 .GoogleAppsIcon img {
     width: 3.0rem;
     height: 3.0rem;
-   
-   
 }
 
 .profilePic {
@@ -98,12 +97,12 @@ body {
 
 .content {
     
-    height: 391px;
-    display:flex;
+
+    display: flex;
     flex-wrap: wrap;
-    flex: 1;
     flex-direction: column;
     align-items: center;
+    height: 75%;
     
 
 }
@@ -111,57 +110,171 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    width: 100%;
+   
 }
 
-.space1 .space2 {
-    width: 1rem;
+.space1, .space2 {
+    width: 10%;
 }
 
 .searchForm {
     border: 1px solid #dfe1e5;
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border-radius: 2.4rem;
-    height: 4.4rem;
-    width: 100%;
+    height: auto;
     box-shadow: none;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-top: .5rem;
+    width: 80%;
     
 }
-
+.magnifyGlass {
+    width: 5%;
+    margin: auto;
+}
 .magnifyGlass img {
-    width: 4rem;
-    padding-left: 1rem;
-    
+    width: 60%;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.form {
+    width: 90%;
 }
 
 .searchForm input {
     min-width: 20.3rem;
     border: none;
-    height: 3.4rem;
+    height: 2.4rem;
+    width: 100%;
+    
 }
 
+.microphone {
+    width: 5%;
+    margin: auto;
+}
 .microphone img {
-    width: 2.9rem;
+    width: 60%;
+    padding-right: 15%;
+    
+}
+
+.googleImage {
+    height: 92px;
+    width: auto;
+}
+
+.googleImage img {
+    padding-top: 10%;
+    height: 70%;
+    
+}
+
+.searchButtons{
+    padding-top: 1.8rem;
+    display: block;
+}
+
+.searchButtons input[type="submit"] {
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 1.2rem;
+    margin: 11px 4px;
+    padding: 0 1rem;
+    line-height: 27px;
+    height: 2.4rem;
+    min-width: 2.4rem;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.buscarGoogle {
     padding-right: 1rem;
 }
 
 
-.googleImage img {
-    padding-top: 109px;
-    padding-bottom: 50px;
+
+.languageBanner{
+    display: inline-block;
+    padding-top: 3rem;
+    font-size: small;
 }
-
-
 
 
 
 
 .footer {
-    background-color: #0063d2;
-    height: 80px;
+    height: 15%;
+    background-color: #f2f2f2;
     position: absolute;
     bottom: 0;
+    color: rgba(0,0,0,.54);
+    font-size: .9rem;
+    
 }
+
+.footerCtry {
+    border-top: 1px solid #dadce0;
+    height: 50%;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.footerBottom{
+    
+    border-top: 1px solid #dadce0;
+    height: 50%;
+    
+}
+.footerLeft {
+    display: inline-block;
+    white-space: nowrap;
+    float: center;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.footerRight {
+    
+    display: inline-block;
+    white-space: nowrap;
+    float: center;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.footer a {
+    padding-right: 1rem;
+}
+
+
+.footer a:link {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+  }
+
+.footer a:visited {
+
+    color: rgba(0,0,0,.54);
+}
+
+.footer a:hover {
+
+    color: rgba(0,0,0,.54);
+}
+
+.footer a:active {
+
+    color: rgba(0,0,0,.54);
+}
+

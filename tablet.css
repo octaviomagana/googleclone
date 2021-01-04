@@ -1,0 +1,46 @@
+.header {
+    font-size: 1.2rem;
+}
+
+.googleImage {
+    height: 120px;
+    width: auto;
+}
+
+.googleImage img {
+    height: 80%;
+    
+}
+
+.space1, .space2 {
+    width: 20%;
+}
+
+.searchForm {
+    
+    width: 60%;
+    
+}
+
+
+.searchForm input {
+ 
+    height: 3.4rem;
+}
+
+
+
+.footer {
+    
+    font-size: 1.2rem;
+    
+}
+
+.footerLeft {
+    float: left;
+}
+
+.footerRight {
+    
+    float: right;
+}

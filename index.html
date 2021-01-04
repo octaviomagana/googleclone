@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="./style.css">
+    <link 
+        rel="stylesheet" 
+        href="./tablet.css" 
+        media="screen and (min-width:600px)"
+    />
 </head>
 <body>
     <main class = "container">
@@ -48,12 +53,32 @@
                 </div>
                 <div class="space2"></div>
             </div>
-            <div class="searchButtons"></div>
-            <div class="languageBanner"></div>
-
+            <div class="searchButtons">
+                <input class="buscarGoogle" value="Buscar con Google" aria-label="Buscar con Google" name="btnK" type="submit">
+                <input class="suerteGoogle" value="Me siento con suerte " aria-label="Me siento con suerte " name="btnI" type="submit">
+            </div>
+            <div class="languageBanner">
+                <span>Ofrecido por Google en:</span>
+                <a href="https://www.google.com/setprefs?sig=0_ri_ZaWcuF-lvjAKWhsZAJ6kVFpE%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwj37_SwoILuAhVQaq0KHbLDDfIQ2ZgBCA8">English</a>
+            </div>  
         </div>
         <footer class="footer">
-            
+            <div class="footerCtry">
+                <span class="Ctry">México</span>
+            </div>
+            <div class="footerBottom">
+                <span class="footerLeft">
+                    <a class="publicidad" href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                    <a class="negocios" href="https://smallbusiness.withgoogle.com/intl/es-419_mx/help/#!/">Negocios</a>
+                    <a class="aboutGoogle" href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+                    <a class="googleSearch" href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+                </span>
+                <span class="footerRight">
+                    <a class="privacidad" href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+                    <a class="condiciones" href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+                    <a class="preferencias" href="https://www.google.com/preferences?hl=es-419">Preferencias</a>
+                </span>
+            </div>
         </footer>
     </main>
     
