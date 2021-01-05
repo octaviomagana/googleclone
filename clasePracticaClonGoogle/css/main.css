@@ -1,7 +1,8 @@
-* {
-    box-sizing: border-box;
+body {
     margin: 0;
     padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -9,13 +10,66 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header {
     width: 100%;
     height: 60px;
-    font-size: 1.3rem;
 }
 
 header nav {
     display: flex;
     justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+nav .nav-right-section li {
+    margin: auto 0 ;
+}
+
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: black;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://lh3.google.com/u/0/d/1HFO0n5NladI1ZFbdgGY3YzmHwAfhFeyP=w2804-h1418-iv1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 272px;
+    margin: 0 auto;
+    margin-bottom: 35px; 
+    height: 92px;
+
 }
